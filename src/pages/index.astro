@@ -9,6 +9,8 @@ import HomeHeroSection from '../components/sections/heros/HomeHeroSection.astro'
 
 <main>
 
+	<h1> Junior Team</h1>
+	<h2> Make you great again</h2>
 </main>
 
 </Layout>
@@ -20,6 +22,19 @@ import HomeHeroSection from '../components/sections/heros/HomeHeroSection.astro'
       background-repeat: no-repeat; /* Prevents the image from repeating */
 			height: 100vh;
 			margin: 0;
+
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+
+	}
+
+	.h1 {
+		font-size: 3rem;
+		background-image: linear-gradient(red, blue);
+		color: transparent;
+		background-clip: text;
 	}
 
 	.feature-card__section {

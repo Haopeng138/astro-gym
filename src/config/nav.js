@@ -5,14 +5,14 @@ export const nav = [
 	},
 	{
 		title: 'About',
-		slug: '/company/about',
+		slug: '/astro-gym/company/about',
 	},
 	{
 		title: 'Contact',
-		slug: '/company/contact',
+		slug: '/astro-gym/company/contact',
 	},
 	{
 		title: 'Success Stories',
-		slug: '/blog',
+		slug: '/astro-gym/blog',
 	}
 ];
